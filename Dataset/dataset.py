@@ -16,6 +16,7 @@ def read(root, filename):  # root: C:\Users\Administrator\Desktop\DNA\DNAScoring
 
 def load_DNAScore(root, mode):
     scores3 = []
+    seqs3 =[]
     # reverse_seqs=[]
     seqs, scores = read(root, 'length110.csv')  # sefold.csv
     # for j in range(0,len(seqs)):
